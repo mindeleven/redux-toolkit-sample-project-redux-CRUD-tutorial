@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { UsersData } from '../data/FakeDate';
+import { UsersData } from '../data/FakeData';
 
 export const userSlice = createSlice({
   name: 'users',
@@ -12,3 +12,5 @@ export const userSlice = createSlice({
     }
   }
 });
+
+export default userSlice.reducer;
