@@ -1,7 +1,9 @@
 import './App.css';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
+import { addUser } from './features/Users';
 
 function App() {
+  const dispatch = useDispatch();
   const userList = useSelector((state) => state.users.value);
 
   return (
@@ -10,7 +12,13 @@ function App() {
       <div className="addUser">
         <input type="text" placeholder="Name..." />
         <input type="text" placeholder="Username..." />
-        <button>Add User</button>
+        <button
+          onClick={() => dispatch(addUser({
+            id: 0,
+            name: "",
+            username: ""
+          }))}
+        >Add User</button>
       </div>
       <div className="displayUsers">
         {userList.map((user) => {
