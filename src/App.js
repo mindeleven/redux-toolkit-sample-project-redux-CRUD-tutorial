@@ -41,6 +41,15 @@ function App() {
           return <div key={user.username}>
             <h1>{user.name}</h1>
             <h1>{user.username}</h1>
+            <input
+              type="text"
+              placeholder="New Username..."
+              onChange={(event) => {
+                //setUsername(event.target.value);
+              }}
+            />
+            <button>Update Username</button>
+            <button>Delete Username</button>
           </div>
         })}
       </div>
