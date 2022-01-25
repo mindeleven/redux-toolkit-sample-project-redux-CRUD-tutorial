@@ -6,7 +6,7 @@ Work along project with the "Redux CRUD Tutorial in React" tutorial by PedroTech
 
 ## How to Use
 
-* Clone this repo with `https://github.com/JuergenKober/project-would-you-rather-reactnd-app`
+* Clone this repo with `https://github.com/mindeleven/redux-toolkit-sample-project-redux-CRUD-tutorial.git`
 * Go to the application folder and install all project dependencies with `npm install`
 * Start start the application with `npm start`
 
