@@ -1,3 +1,15 @@
+# Redux Toolkit Sample Project (Redux CRUD Tutorial)
+
+## Introduction
+
+Work along project with the "Redux CRUD Tutorial in React" tutorial by PedroTech on Youtube. The example app that is build with React, Redux and the Redux Toolkit. It demonstrates the use of Redux Toolkit.
+
+## How to Use
+
+* Clone this repo with `https://github.com/JuergenKober/project-would-you-rather-reactnd-app`
+* Go to the application folder and install all project dependencies with `npm install`
+* Start start the application with `npm start`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
